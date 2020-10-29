@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0
+}
+h1 {
+    padding: 20px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900
+}
+.login-section {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,10);
+    background-image:  linear-gradient(-30deg,
+        rgba(63, 60, 228, 0.61),
+        rgba(9, 78, 38, 0.555)
+        
+      ),url('../img/ceprodent1.png');
+    background-size: cover, contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: 103%;
+    animation: movimiento 15s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+.capa-gradient{
+    width: 100vh;
+    height: 100vw;
+    position: absolute;
+    background: -webkit-linear-gradient(left,black,#0672d0);
+    opacity: 0.5;
+}
+
+.login-form {
+    background: linear-gradient(-50deg, rgb(44, 171, 227),rgb(34, 45, 50));
+    padding: 10px 0;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-input,
+.form-check,
+.form-button {
+    padding: 10px 0;
+}
+input {
+    font-size: 12px;
+    padding: 10px;
+    width: 100%
+}
+.form-button button {
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+    background: #01151f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-button button:hover {
+    opacity: .8;
+    transition: .4s all
+}
+label{
+    color: white
+}
+a {
+    color: rgb(178, 245, 178);
+    text-decoration: none
+}
+@media (max-width: 425px) {
+    .login-form {
+        width: 100%;
+        padding: 8px 
+    }
+    .form-input input {
+        width: 100%;
+        font-size: 15px;
+        padding: 10px 0
+    }
+}
+

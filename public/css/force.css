@@ -1,0 +1,276 @@
+.white-box
+{
+    overflow: hidden !important;
+    margin: 1rem 0 1rem 0 !important;
+    position: relative !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    padding: 20px;
+}
+
+.box-title 
+{
+    margin: 5px !important;
+    font-size: 25px !important;
+}
+
+
+.btn-primary
+{
+    float:right !important;
+    width: 90px !important;
+    padding: 0px !important;
+    margin-bottom: 10px !important;
+    background: linear-gradient(45deg, #666666, #666666) !important;
+}
+
+.btn
+{
+font-size: 12px !important;
+text-transform: none !important;
+}
+.btn-info
+{
+
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    background: #00bcd4  !important;
+    
+}
+
+.btn-success 
+{
+    background: #43a047 !important ;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    
+}
+  .btn-danger
+{
+    background:  #ff6f00!important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+     
+}
+
+.btn-default
+{
+    background: linear-gradient(45deg, #ff6f00, #ffca28) !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    margin-right: 5px !important;
+    float:right !important;
+}
+.panel
+{
+    overflow: hidden !important;
+    margin: 1rem 0 1rem 0 !important;
+    position: relative !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    padding: 100px;
+    padding-top: 30px !important;
+}
+
+.box-title{
+    margin-bottom: 30px !important;
+}
+
+.gradient-45deg-amber-amber{
+    background: linear-gradient(45deg, #ebe6ec, #f7f2f1) !important;
+}
+
+.sidenav-dark.sidenav-main .sidenav
+{
+    background: white  !important;
+}
+.brand-sidebar{
+    margin-bottom: 30px !important;
+    height: 400px !important;
+}
+
+.sidenav li a.active 
+{
+background: linear-gradient(45deg, #ff6f00, #ffca28) !important;
+color:white !important;
+}
+.sidenav-dark .brand-sidebar
+{
+ margin-bottom: 30px !important;
+}
+
+.navbar .navbar-light 
+{
+    background: linear-gradient(45deg, #ff6f00, #ffca28) !important;
+}
+
+@media (max-width: 600px) {
+ .logo-wrapper
+{
+
+    display: none !important;
+}
+}
+
+.sidenav li a
+{
+
+color:#000 !important;
+}
+
+.help-block{
+    color: red;
+}
+
+.resultados{
+    width: 900px;
+    height: 600px;
+    border: 1px #000000 solid;
+}
+
+.imagen{
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 1px solid black;
+}
+
+#div_info{
+    display: flex;
+    
+}
+ #div_info #div_start {
+    
+    display: inline;
+    padding-left: 25px;
+    float: right;
+
+}
+
+  
+#div_info #info {
+            font-size: 20px;
+            display: inline;
+            width: max-content;
+            
+        }
+
+        #headline {
+            text-decoration: none
+        }
+
+        #results {
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+            min-height: 150px;
+        }
+
+        #start_button {
+            border: 0;
+            background-color: transparent;
+            padding: 0;
+        }
+
+        .interim {
+            color: gray;
+        }
+
+        .final {
+            color: black;
+            padding-right: 3px;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .marquee {
+            margin: 20px auto;
+        }
+
+        #buttons {
+            margin: 10px 0;
+            position: relative;
+            top: -50px;
+        }
+
+        #copy {
+            margin-top: 20px;
+        }
+
+        #copy>div {
+            display: none;
+            margin: 0 70px;
+        }
+
+        table.dataTable thead th, table.dataTable thead td
+        {
+          border-bottom: none !important;
+        }
+
+        table.dataTable.no-footer
+        {
+            border-bottom: none !important;
+            
+        }
+
+          .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+        
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current
+    {
+        border:none !important;
+        background: #f2f6f8 !important;
+        color: white !important;
+        box-shadow: #2196f3 !important;
+        border-radius: 5px !important;
+
+    }
+
+    
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button
+    {
+        padding: 0.2em 1em !important;
+
+    }   
+
+    .chip .open
+{
+    font-size: 16px;
+    line-height: 32px;
+
+    float: right;
+
+    padding-left: 8px;
+
+}
+ 
+
+tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+
+    .imagen_fondo{
+        width: 100%;
+        text-align: center;
+    }
+
+     
+
+    @media all and (max-width: 400px) {
+      .imagen_fondo{
+        width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        max-width: 300px;
+      }
+        
+    }

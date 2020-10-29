@@ -1,0 +1,70 @@
+ 
+    .contenedor{
+    width: 	612px;
+    height: 792px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    
+
+}
+.contenedor .encabezado{
+    width: 580px;
+    height: 200px;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.contenedor .encabezado .logo{
+    width: 300px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+}
+.contenedor .descripcion{
+    width: 612px;
+    height: auto;
+    
+    
+}
+
+.contenedor .descripcion .titulo{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.contenedor .descripcion .descripcion_usuario {
+    width: 612px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.contenedor .descripcion .cuerpo{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.contenedor .descripcion .conclusion{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.contenedor .piedepagina{
+    margin-left: 20px;
+    margin-top: 25px;
+    text-align: left;
+}
+.contenedor .piedepagina .firma{
+    width: 100px;
+    height: 100px;
+}
