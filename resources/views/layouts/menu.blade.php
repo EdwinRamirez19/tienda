@@ -9,7 +9,7 @@
 </li>
 
 
-@can('users.index')
+<!-- @can('users.index')
 <li>
     <a href="{!! route('users.index') !!}" class="waves-effect {{ Request::is('users*') ? 'active' : '' }}">
         
@@ -28,7 +28,7 @@
     </div>
     </a>
 </li>
-@endcan
+@endcan -->
 <li>
     <a href="{!! route('categorias.index') !!}" class="waves-effect {{ Request::is('categorias*') ? 'active' : '' }}">
         

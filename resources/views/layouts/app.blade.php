@@ -9,7 +9,7 @@
     <meta name="keywords" content="Con grandes y eficientes modulos para informar estudios,transcripcion y entrega de informes digitales.">
     <meta name="author" content="ThemeSelect">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title> GoTelemedicina</title>
+    <title> Tienda</title>
     <link rel="apple-touch-icon" href="/materialice/app-assets/images/favicon/apple-touch-icon-152x152.png">
     <link rel="shortcut icon" type="image/x-icon" href="/materialice/app-assets/images/favicon/favicon-32x32.png">
     <link href="/css/libreriasCSS/iconmaterialize.css" rel="stylesheet">
@@ -39,7 +39,7 @@
     <!-- BEGIN: SideNav-->
     <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-dark gradient-45deg-amber-amber sidenav-gradient sidenav-active-rounded">
       <div class="brand-sidebar">
-        <h1 class="logo-wrapper"><img src="/img/gotelemedicina.jpeg"  width="250px; " height="65px"/ style="margin-bottom:20px;"></h1>
+        <h1 class="logo-wrapper"><img src="/materialice/app-assets/images/logo/generic-logo.png"  width="250px; " height="65px"/ style="margin-bottom:20px;"></h1>
       </div>
       <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
         @include('layouts.menu')
@@ -120,7 +120,7 @@
 <div class="hide" id="footer">
     <footer class="page-footer footer footer-static footer-light navbar-border navbar-shadow ">
       <div class="footer-copyright">
-        <div class="container"><span>&copy; 2019          <a href="#" target="_blank">GoTelemedicina</a> All rights reserved.</span><span class="right hide-on-small-only">Design and Developed by <a href="#">GoTelemedicina</a></span></div>
+        <div class="container"><span>&copy; 2019          <a href="#" target="_blank">Materialize</a> All rights reserved.</span><span class="right hide-on-small-only">Design and Developed by <a href="#">Materialize</a></span></div>
       </div>
     </footer>
   </div>

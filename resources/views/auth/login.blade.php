@@ -8,7 +8,7 @@
         
       <div class="row">
         <div class="input-field col s12">
-          <img class="imagenLogin"src="/img/gotelemedicina.jpeg" alt="IMG">
+          <img class="imagenLogin"src="/materialice/app-assets/images/logo/generic-logo.png" alt="IMG">
           <h5 class="ml-4 center">Inicio de Sesion</h5>
         </div>
       </div>

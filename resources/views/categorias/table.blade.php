@@ -15,9 +15,8 @@
                 <td>
                     {!! Form::open(['route' => ['categorias.destroy', $categoria->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>
-                        <a href="{{ route('categorias.show', [$categoria->id]) }}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-eye-open"></i></a>
-                        <a href="{{ route('categorias.edit', [$categoria->id]) }}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-edit"></i></a>
-                        {!! Form::button('<i class="glyphicon glyphicon-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
+                        <a href="{{ route('categorias.edit', [$categoria->id]) }}" class='mb-6 btn-floating waves-effect waves-light blue darken-1'><i class="material-icons dp48">create</i></a>
+                        {!! Form::button('<i class="material-icons dp48">delete</i>', ['type' => 'submit', 'class' => 'mb-6 btn-floating waves-effect waves-light red darken-1', 'onclick' => "return confirm('Are you sure?')"]) !!}
                     </div>
                     {!! Form::close() !!}
                 </td>

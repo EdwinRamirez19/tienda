@@ -1,26 +1,28 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="content-header">
-        <h1 class="pull-left">Categorias</h1>
-        <h1 class="pull-right">
-           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{{ route('categorias.create') }}">Add New</a>
-        </h1>
-    </section>
-    <div class="content">
-        <div class="clearfix"></div>
+    <div class="container">
+                <div class="row">
+                <div class="card">
+                    <div class="card-content">
 
-        @include('flash::message')
+                        <section class="content-header">
+                            <h4 class="pull-left"><i class="material-icons dp48">assignment_ind</i> Categorias
+                                
+                                    <a class="btn-primary pull-right btn modal-trigger" data-method="post" id="crear_medicos" style="margin-top: 7px;margin-bottom: 5px" href="{{ route('categorias.create') }}">
+                                        <i class="material-icons left">add</i>Nuevo
+                                    </a>
+                                
+                                    
+                            </h4>
 
-        <div class="clearfix"></div>
-        <div class="box box-primary">
-            <div class="box-body">
-                    @include('categorias.table')
+                        </section>
+                        @include('categorias.table')
+                    </div>
+                </div>
+            
             </div>
         </div>
-        <div class="text-center">
-        
-        </div>
-    </div>
+
 @endsection
 
